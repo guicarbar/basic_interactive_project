@@ -1,0 +1,11 @@
+/* Imports (Navbar, footer and reset css) */
+@import url(style_navbar.css);
+@import url(style_footer.css);
+@import url(resetCSS.css);
+
+
+/* root for vars */
+:root {
+  /* vars for colors */
+
+}
