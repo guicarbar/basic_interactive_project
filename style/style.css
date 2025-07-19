@@ -1,3 +1,8 @@
+/* Import for externals fonts ( Bitcount single and RobotoMono - Google fonts)  */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:slnt,wght,CRSV,ELSH@-8,100..900,0,50&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap');
+
+
 /* Imports (Navbar, footer and reset css) */
 @import url(style_navbar.css);
 @import url(style_footer.css);
@@ -7,5 +12,48 @@
 /* root for vars */
 :root {
   /* vars for colors */
+    /* named colors vars */
+  --Color_snow: #FFFAFA;
+  --Color_Azure: #F0FFFF;
+  --Color_Black: #00030c;
+  --Color_SpringGreen: #00FF7F;
+  --Color_SeaGreen: #3CB371;
+  --Color_PaleTurquoise: #AFEEEE;
+  --Color_Aquamarine: #7FFFD4;
+  --Color_Turquoise: #40E0D0;
+    /* gray colors */ 
+  --Color_gray1: #C0C0C0;
+  --color_gray2: #D3D3D3;
+  --color_gray3: #696969;
+  --color_gray4: #778899;
+  --color_gray5: #2F4F4F;
 
+
+}
+
+
+/* Font class (Bitcount single - Google Fonts) */
+.bitcount-single-Font {
+  font-family: "Bitcount Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" -8, "CRSV" 0, "ELSH" 50, "ELXP" 0;
+}
+
+
+/* Style for text Tags */
+p, h1, h2 h3, h4, h5, h6, h7, li, a {
+  /* Main font style */
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* styke for link tags general */
+a {
+  color: var(--Color_Black);
+  font-weight: 600;
+  text-decoration: none;
 }
