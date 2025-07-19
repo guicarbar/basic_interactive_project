@@ -6,10 +6,12 @@ header.Navbar {
   /* colors adjust */
   background-image: linear-gradient(145deg,var(--Color_SpringGreen), var(--Color_SeaGreen));
   box-shadow: 0px 8px 8px var(--Color_SeaGreen);
-  /* diplay adjuste */
+  /* Positition adjuste */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0px;
 }
 
 header.Navbar > div {
@@ -27,7 +29,7 @@ header.Navbar > div {
 /* text menu */
 header.Navbar > div:first-child > h1 {
   cursor: pointer;
-  font-size: 32px;
+  font-size: 2.2em;
 }
 
 /* Navbar Link area */
@@ -44,17 +46,21 @@ header.Navbar > div:first-child > h1 {
 }
 
 .navbar_linkArea > ul > li > a {
+  /* text decorate */
+  font-size: 1em;
+  /* position */
   padding: .8em;
-  border-radius: 1em;
-  transition: box-shadow, background-color .3s ease-in;
+  /* decorate */
   border: 1px solid transparent;
+  border-radius: 1em;
+  /* transition */
+  transition: box-shadow, background-color .3s ease-in;
 }
 
 .navbar_linkArea > ul > li > a:hover {
   box-shadow: 0px 0px 16px var(--color_gray5);
-  background-color: var(--Color_Turquoise);
+  background-color: var(--Color_MediumOrchid);
 }
-
 
 
 /* root for vars */
@@ -69,13 +75,16 @@ header.Navbar > div:first-child > h1 {
   --Color_PaleTurquoise: #AFEEEE;
   --Color_Aquamarine: #7FFFD4;
   --Color_Turquoise: #40E0D0;
+  --Color_Fuchsia: #FF00FF;
+  --Color_MediumOrchid: #BA55D3;
+  --Color_MediumPurple: #9370DB;
+  --Color_BlueViolet: #8A2BE2;
+  --Color_DarkViolet: #9400D3;
     /* gray colors */ 
   --Color_gray1: #C0C0C0;
   --color_gray2: #D3D3D3;
   --color_gray3: #696969;
   --color_gray4: #778899;
   --color_gray5: #2F4F4F;
-
-  /*  */
 }
 

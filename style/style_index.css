@@ -1,0 +1,66 @@
+/* style for body page - index  */
+/* welcome text */
+.body_welcome-text {
+  /* sizing */
+  margin: 6em 0em;
+  padding: 3em 6em;
+  /* decorates */
+  background-image: linear-gradient(135deg, var(--Color_Fuchsia), var(--Color_BlueViolet));
+  box-shadow: 0px 0px 2em var(--Color_MediumOrchid);
+  /* position */
+  display: flex;
+  flex-flow: column;
+  gap: 1em;
+  align-items: center;
+}
+
+.body_welcome-text > h2, .body_welcome-text > p, .body_welcome-text > a {
+  color: var(--Color_snow);
+  max-width: 600px;
+  text-align: start;
+  text-indent: 1em;
+  line-height: 1.4;
+}
+
+.body_welcome-text > h2 {
+  font-size: 1.6em;
+  color: var(--Color_SpringGreen);
+}
+
+.body_welcome-text > a {
+  color: var(--Color_snow);
+  transition: .3s ease-in;
+}
+
+.body_welcome-text > a:hover {
+  color: var(--Color_SpringGreen);
+}
+
+
+
+
+
+/* root for vars */
+:root {
+  /* vars for colors */
+    /* named colors vars */
+  --Color_snow: #FFFAFA;
+  --Color_Azure: #F0FFFF;
+  --Color_Black: #00030c;
+  --Color_SpringGreen: #00FF7F;
+  --Color_SeaGreen: #3CB371;
+  --Color_PaleTurquoise: #AFEEEE;
+  --Color_Aquamarine: #7FFFD4;
+  --Color_Turquoise: #40E0D0;
+  --Color_Fuchsia: #FF00FF;
+  --Color_MediumOrchid: #BA55D3;
+  --Color_MediumPurple: #9370DB;
+  --Color_BlueViolet: #8A2BE2;
+  --Color_DarkViolet: #9400D3;
+    /* gray colors */ 
+  --Color_gray1: #C0C0C0;
+  --color_gray2: #D3D3D3;
+  --color_gray3: #696969;
+  --color_gray4: #778899;
+  --color_gray5: #2F4F4F;
+}
