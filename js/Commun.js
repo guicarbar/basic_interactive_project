@@ -1,4 +1,19 @@
 // commum Functions for my project
-// reloadpage funnction
-function ReloadPage() {window.location.reload()}
+// redirect function
+function redirect(pageValue) {
+  switch (pageValue) {
+    case 1:
+      window.location.href = "index.html"
+      break
+    case 2:
+      window.location.href = ""
+      break
+    case 3:
+      window.location.href = ""
+      break
+    default:
+      window.location.reload()
+      break
+  }
+}
 

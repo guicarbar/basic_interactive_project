@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap');
 
 
-/* Imports (Navbar, footer and reset css) */
+/* Imports (Navbar, footer and reset css) - obs: first reset, no conflits*/
+@import url(resetCSS.css);
 @import url(style_navbar.css);
 @import url(style_footer.css);
-@import url(resetCSS.css);
 
 
 /* root for vars */
