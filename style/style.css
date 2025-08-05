@@ -69,5 +69,5 @@ a {
 
 /* style general */
 body {
-  background-color: var(--Color_Azure);
+  background: url(img/BG_GarryIsAFriend.png) center center / cover repeat;
 }
