@@ -1,0 +1,73 @@
+.body_Canvas {
+  margin: 6em 0em 0em;
+  /* display */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.canvas {
+  width: 95vw;
+  height: 85vh;
+  /* decorate */
+  border-radius: 32px;
+  border: 6px solid var(--Color_BlueViolet);
+  background-color: var(--Color_Black);
+  box-shadow: 0px 0px 15px var(--Color_BlueViolet);
+  cursor: crosshair;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+  /* vars for colors */
+    /* named colors vars */
+  --Color_snow: #FFFAFA;
+  --Color_Azure: #F0FFFF;
+  --Color_Black: #00030c;
+  --Color_SpringGreen: #00FF7F;
+  --Color_SeaGreen: #3CB371;
+  --Color_PaleTurquoise: #AFEEEE;
+  --Color_Aquamarine: #7FFFD4;
+  --Color_Turquoise: #40E0D0;
+  --Color_Fuchsia: #FF00FF;
+  --Color_MediumOrchid: #BA55D3;
+  --Color_MediumPurple: #9370DB;
+  --Color_BlueViolet: #8A2BE2;
+  --Color_DarkViolet: #9400D3;
+    /* gray colors */ 
+  --Color_gray1: #C0C0C0;
+  --color_gray2: #D3D3D3;
+  --color_gray3: #696969;
+  --color_gray4: #778899;
+  --color_gray5: #2F4F4F;
+}

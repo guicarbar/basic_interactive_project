@@ -1,9 +1,18 @@
 /* style for body page - index  */
+/* body */
+.body {
+  /* M and P */
+  padding: 6em 0em;
+  /* display */
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10em;
+}
+
 /* welcome text */
 .body_welcome-text {
   /* sizing */
-  margin: 6em 0em;
-  padding: 3em 6em; 
+  padding: 3em 0em; 
   box-shadow: 0px 0px 2em var(--Color_Fuchsia);
   /* position */
   display: flex;
@@ -31,7 +40,7 @@
 }
 
 .body_welcome-text > a:hover {
-  color: var(--Color_SpringGreen);
+  color: var(--Color_Fuchsia);
 }
 
 
@@ -61,6 +70,28 @@
   display: block;
   animation: carousel-animated 8s ease-in-out;
 }
+
+.carousel-text {
+  margin: 1em 0em;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-text > h2 {
+  width: 60%;
+  color: var(--Color_snow);
+  font-size: 24px;
+  text-indent: 1em;
+  text-align: center;
+}
+
+
+
+
+
+
+
 
 
 
