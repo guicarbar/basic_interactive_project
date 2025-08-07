@@ -19,6 +19,30 @@
 }
 
 
+/* root for colors to canvas html */
+:root {
+  --CanvaColors-Red: #FF0000;
+  --CanvaColors-Blue: #0000FF;
+  --CanvaColors-Green: #00FF00;
+  --CanvaColors-White: #FFFFFF;
+  --CanvaColors-Black: #000000;
+  --CanvaColors-Gray: #888888;
+  --CanvaColors-Pink: #FF1493;
+  --CanvaColors-Orange: #FF8C00;
+  --CanvaColors-Yellow: #FFFF00;
+  --CanvaColors-Purple: #8A2BE2;
+  --CanvaColors-LigthBlue: #00BFFF;
+  --CanvaColors-DarkGreen: #006400;
+  --CanvaColors-LigthGreen: #9ACD32;
+  --CanvaColors-RedOrange: #FF4500;
+  --CanvaColors-DarkRed: #8B0000;
+  --CanvaColors-Crimson: #DC143C;
+  --CanvaColors-Darkgrey: #4b4b4b; 
+  --CanvaColors-SteelBlue: #4682B4;
+  --CanvaColors-Olive: #808000;
+  --CanvaColors-DarkSlateBlue: #483D8B;
+}
+
 
 
 
